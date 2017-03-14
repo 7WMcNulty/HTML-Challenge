@@ -19,3 +19,12 @@ function reveal(art){
 function hide(art){
     art.style.display = "none";
 }
+
+function sayHi(){
+  let user = prompt("Who are you?");
+  alert("Hi "+user);
+}
+function change(elem){
+  let test = document.getElementById(elem);
+  console.log(test);
+}
